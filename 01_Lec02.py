@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # # string indexing 
 
 # a = "Benjamin Franklin"
@@ -63,3 +64,7 @@ print (str[-2:-1:1])
 
 jk = "123".isdigit()
 print (jk)
+=======
+# string indexing 
+
+>>>>>>> f799422f1c79af2a79893c84c8cc06d0d7658f0b
