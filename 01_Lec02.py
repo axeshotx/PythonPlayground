@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # # string indexing 
 
 # a = "Benjamin Franklin"
@@ -59,12 +59,14 @@
 # str = "Ben10 " * 4
 # print (str)
 str = "Ben10"
-print (str[0:1:1])
-print (str[-2:-1:1])
+# print (str[0:1:1])
+# print (str[-2:-1:1])
 
-jk = "123".isdigit()
+jk = "12d".isdigit()
 print (jk)
-=======
-# string indexing 
 
->>>>>>> f799422f1c79af2a79893c84c8cc06d0d7658f0b
+
+print (str[-1])
+print (str[-2:-1:1])
+print (str[-2:])
+print (str[-1:-3:-1])
