@@ -103,11 +103,24 @@
 
 # 👉🏻9. Discount
 
-amount= int(input("Enter your purchase amount:- "))
+# amount= int(input("Enter your purchase amount:- "))
 
-if amount>=1000<5000:
-    print (f"You got 10% off! pay {amount*90/100}")
-elif amount>5000:
-    print (f"You got 20% off! pay {amount*80/100}")
+# if 999<amount<5000:                   # Here was the issue bruhhhh >amount<
+#     print (f"You got 10% off! pay {amount*90/100}")     
+# elif amount>=5000:
+#     print (f"You got 20% off! pay {amount*80/100}")    
+# else:
+#     print(f"No discount Gareeb, Pay {amount} or add items of {1000-amount} to avail 10% off offer")
+
+
+# 👉🏻10. Vowel
+
+str = input("Enter an English alphabet:- ")
+
+if str.lower()=="a" or str.lower()=="e" or str.lower()=="i" or str.lower()=="o" or str.lower()=="u":
+    print("It's a vowel")
 else:
-    print(f"No discount, Pay {amount} or add items of {1000-amount} to avail 10% off offer")
+    print("It's a consonant")
+
+
+
