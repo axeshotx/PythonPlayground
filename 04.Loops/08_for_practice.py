@@ -163,32 +163,24 @@
 
 # Prime 
 
-# st = int (input())
-# ed = int (input())
-# count=0
-# primes=""
+st = int (input())
+ed = int (input())
+count=0
+prime=""
 
-# for i in range (st+1, ed):
-#     if j<2:
-#             continue
-#     for j in range (2,i):
-        
+for i in range (st, ed+1):
+    
+    for j in range (2,i):
+        # if j<2:
+        #             continue
+        if i%j==0 :
+            break
+    else:
+        prime= prime + str(i) + " "
 
-#         if i%j==0:
-#             count+=1
-#     if count
+print(prime)
 
 
-inp = input()
-low=0
-cap=0
 
-for i in inp:
-    if i.islower()==True:
-        low+=1
-    elif i.isupper()==True:
-        cap+=1
-
-print(f"Uppercase: {cap}\nLowercase: {low}")
 
 
