@@ -14,9 +14,9 @@ while True:
     user = int(input(f"Enter number 1-Stone or 2-Paper or 3-Scissors ({5-score} More Points to win) :- "))
     comp= random.randint(1,3)
 
-    # if score==5 or botsc==5:   weird
-    #     break
-
+    # if score==5 or botsc==5:   
+    #     break    #after 4 becomes 5 the new iteration starts and takes extra input and after input it sees this part and executes it.
+ 
 
     if user==1 and comp ==3:
         print("You Won this round! \n")
@@ -35,7 +35,6 @@ while True:
 
     if score==5 or botsc==5:
         break
-    # Comp code
 
 
 if score ==5:
